@@ -4,7 +4,7 @@ function isUpperCase(char) {
   return char.toUpperCase() === char;
 }
 
-function talkLikeAPirate(str) {
+function talkLikeARamsay(str) {
   return str.replace(/[\w']+/ig, function(match) {
     var replacement = dictionary[match.toLowerCase()];
 
@@ -25,4 +25,5 @@ function talkLikeAPirate(str) {
   });
 }
 
-module.exports = talkLikeAPirate;
+module.exports = talkLikeARamsay;
+

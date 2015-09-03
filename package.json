@@ -1,26 +1,26 @@
 {
-  "name": "talk-like-a-pirate",
-  "version": "1.0.3",
-  "description": "Translate text into pirate-speak",
+  "name": "talk-like-a-ramsay",
+  "version": "1.0",
+  "description": "Translate text into ramsay-NSFW-speak",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --ui exports ./test.js",
-    "build": "./node_modules/browserify/bin/cmd.js -s talkLikeAPirate ./index.js > ./talk-like-a-pirate.js",
+    "build": "./node_modules/browserify/bin/cmd.js -s talkLikeARamsay ./index.js > ./talk-like-a-ramsay.js",
     "lint": "./node_modules/jshint/bin/jshint index.js dictionary.js test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/spudly/talk-like-a-pirate.git"
+    "url": "https://github.com/blater/talk-like-a-ramsay.git"
   },
   "keywords": [
     "pirate"
   ],
-  "author": "Stephen Sorensen <shuoink@gmail.com> (http://www.stephenjohnsorensen.com/)",
+  "author": "Blater. Forked from spudly/talk-like-a-pirate. Apologies!",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spudly/talk-like-a-pirate/issues"
+    "url": "https://github.com/blater/talk-like-a-ramsay/issues"
   },
-  "homepage": "https://github.com/spudly/talk-like-a-pirate",
+  "homepage": "https://github.com/blater/talk-like-a-ramsay",
   "devDependencies": {
     "browserify": "^6.3.2",
     "chai": "^1.10.0",

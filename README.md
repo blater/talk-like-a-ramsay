@@ -1,33 +1,32 @@
-# talk-like-a-pirate
+# talk-like-a-ramsay
 
-Translates text into pirate-speak.
+Translates text into celebrity-chef-like NSFW very bad language.
 
 # Installation
 
 ```
-npm install talk-like-a-pirate
+npm install talk-like-a-ramsay
 ```
 
 # Usage (node)
 
-Yonder module exports a function, so all ye have to do be require it in and
-execute it. Pass it a string and it will translate it into pirate-lingo for ye.
+module exports a function, require it in and execute it. 
+Pass it a string and it will translate it into really bad language.
 
 ```javascript
-var talkLikeAPirate = require('talk-like-a-pirate');
-console.log(talkLikeAPirate('Hello!'));
+var talkLikeARamsay = require('talk-like-a-ramsay');
+console.log(talkLikeARamsay('Hello!'));
 ```
 
 # Usage (web browser)
 
-All ye have to do here be load ye JavaScript file (use yonder
-talk-like-a-pirate.js file for web browsers). It puts `talkLikeAPirate`
-on thar window object, so ye just have to call ye function.
+Just source the talk-like-a-ramsay.js file  and it will put 'talkLikeARamsay' on the global window object, 
+so just call that function
 
 ```html
 <script src='talk-like-a-pirate.js'></script>
 <script>
-  alert(talkLikeAPirate('Hello!'));
+  alert(talkLikeARamsay('Hello!'));
 </script>
 ```
 
@@ -36,13 +35,12 @@ on thar window object, so ye just have to call ye function.
 ```js
 require.config({
   paths: {
-    'talk-like-a-pirate': '/path/to/talk-like-a-pirate'
+    'talk-like-a-ramsay': '/path/to/talk-like-a-ramsay'
   }
 });
-require(['talk-like-a-pirate'], function(talkLikeAPirate) {
-  alert(talkLikeAPirate('Hello!'));
+require(['talk-like-a-ramsay'], function(talkLikeARamsay) {
+  alert(talkLikeARamsay('Hello!'));
 });
 ```
 
-... or better still, use ye node usage described above and
-[browserify](http://browserify.org/) it.
+... or better still, use the node usage described above and [browserify](http://browserify.org/) it.

@@ -11,7 +11,7 @@ module.exports = {
   person: 'muppet',
   people: 'muppets',
   "should be": 'better fucking well be',
-  should: 'fucking better'
+  should: 'fucking better',
   thanks: [ 'go fuck yourself', 'fuck off!',
   the: ['ye', 'yonder', 'thar'],
   this: 'this fucking',

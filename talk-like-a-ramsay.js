@@ -5,7 +5,8 @@ module.exports = {
   codebase: 'fucking codebase',
   friend: 'fucker',
   fucking: 'fucking shit',
-  hello: ['fuck off', 'what???'],
+  hello: ['fuck off', 'what???', 'hey cocksucker'],
+  "is a" : ['is a fucking', 'fucking well is a', 'is a big shitty', 'is a fucking big'],
   "it's": 'it fucking is',
   long: 'long fucking',
   not: 'not fucking',
@@ -14,13 +15,15 @@ module.exports = {
   "should be": 'better fucking well be',
   should: 'fucking better',
   thanks: [ 'go fuck yourself', 'fuck off!'],
-  the: ['the fucking', 'the', 'the stupid', 'the shitty'],
+  the: ['the fucking', 'the shitty', 'the fucking shitty', 'the'],
   this: 'this fucking',
   to: 'to fucking',
   user: ['stupid user', 'dumbfuck', 'fucker', 'twat'],
+  very: 'very fucking',
   wrong: 'tits up',
+  which: ['which', 'which fucking'],
   yes: ['fucking ay', 'fuck yes'],
-  you: ['you dumbfuck', 'you fucking mupper', 'you fucking fucker']
+  you: ['you dumbfuck', 'you fucking mupper', 'you fucking fucker'],
 };
 
 },{}],2:[function(require,module,exports){

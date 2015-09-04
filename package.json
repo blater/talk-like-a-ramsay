@@ -1,6 +1,6 @@
 {
   "name": "talk-like-a-ramsay",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Translate text into ramsay-NSFW-speak",
   "main": "index.js",
   "scripts": {
